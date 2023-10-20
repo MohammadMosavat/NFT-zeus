@@ -1,0 +1,51 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+/* font-family: 'Space Grotesk', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+/* font-family: 'Syne', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+/* reset */
+
+
+:root{
+   --bg-color-html: #FCFAFF;
+   --bg-color-body:#FFFFFF;
+   --color-font-white:#FFFFFF;
+   --color-font-black:#000000;
+   --border-colo-header:#F8E0FB;
+   --txt-shodow-h1-under-header:#FFFFFF;
+   --color-font-under-header-two:#532C59;
+   --bg-btn-under-header: rgba(83, 44, 89, 1);
+   --border-color-cmt:#D6BCFA;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0px auto;
+    width: 1440px;
+}
+
+.header-site nav section{
+    list-style: none;
+    width: 4.4rem;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--color-font-black);
+    opacity: 0.5;
+    gap: 3.2rem;
+}

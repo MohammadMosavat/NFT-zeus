@@ -1,0 +1,924 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+/* font-family: 'Space Grotesk', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+/* font-family: 'Syne', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+/* reset */
+
+html{
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+
+
+
+.container{
+    margin: 0px auto;
+    width: 1440px;
+    background-color: var(--bg-color-body);
+    /* background-color: var(--bg-color-body); */
+}
+
+:root{
+   --bg-color-html: #FCFAFF;
+   --bg-color-body:#FFFFFF;
+   --color-font-white:#FFFFFF;
+   --color-font-black:#000000;
+   --border-colo-header:#F8E0FB;
+   --txt-shodow-h1-under-header:#FFFFFF;
+   --color-font-under-header-two:#532C59;
+   --bg-btn-under-header: rgba(83, 44, 89, 1);
+   --border-color-cmt:#D6BCFA;
+}
+
+
+.header-class{
+    height: 7.6rem;
+    border-bottom: 1px solid var(--border-colo-header);
+}
+
+/* nft css */
+.header-one{
+    font-family: 'Space Grotesk', sans-serif;
+    gap: 3.2rem;
+    list-style: none;
+    color: var(--color-font-black);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.logo{
+   flex-grow: 1.2;
+}
+
+
+.header-two{
+    font-family: 'Space Grotesk', sans-serif;
+    list-style: none;
+    gap: 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: var(--color-font-black);
+}
+
+.under-header{
+    height: 67rem;
+    margin-top: -5.8rem;
+    margin-bottom: 4.8rem;
+}
+
+
+.img-header{
+    width: -webkit-fill-available;
+}
+
+.txt-under-header{
+    margin-top: -70.5rem;
+    gap: 3.2rem;
+}
+
+
+.txt-under-header-one{
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 9.6rem;
+    color: var(--color-font-black);
+    font-family: 'Syne', sans-serif;
+    text-shadow: -5px 5px 0px var(--txt-shodow-h1-under-header);
+    width: max-content;
+}
+
+.txt-under-header-two{
+
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--color-font-under-header-two);
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.btn-under-header{
+    background-color: var(--bg-btn-under-header);
+    width: 114px;
+    height: 5.2rem;
+    border-radius: 1.5rem;
+}
+
+
+.logos-under-heder{
+
+    margin-bottom: 13rem;
+}
+
+.hottest{
+   margin-bottom: 15.3rem;
+}
+
+.txt-hottest{
+    gap: 1.6rem;
+    padding-bottom: 6.4rem;
+}
+
+.txt-hottest-one{
+    font-family: 'Syne';
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 6.4rem;
+    color: var(--color-font-black);
+}
+
+
+.pic-hottest{
+    gap: 3.2rem;
+    padding-bottom: 6.4rem;
+}
+
+.pic-under-hottest{
+    gap: 1.6rem;
+}
+
+.txt-under-pic-under-hottest{
+    font-family: 'Syne';
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4.2rem;
+}
+
+.txt-under-pic-under-hottest-two{
+    margin-top: -0.4rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: var(--color-font-under-header-two);
+    font-family: 'Space Grotesk';
+}
+
+
+.our-team{
+    margin-bottom: 16rem;
+}
+
+.txt-our-team{
+    gap: 1.6rem;
+    padding-bottom: 8rem;
+}
+
+
+.picturs-our-team{
+    justify-content: center;
+}
+
+p{
+    margin: 0px;
+}
+
+
+
+.txt-under-pic-under-our-team{
+    font-family: 'Syne';
+    color: var(--color-font-black);
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+ 
+}
+
+.txt-two-under-pic-our-team{
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: var(--color-font-under-header-two);
+    font-family: 'Space Grotesk';
+}
+
+.we-provide{
+    margin-bottom: 20rem;
+}
+
+
+.pictures-we-provide{
+    gap: 6.4rem;
+}
+
+
+.txt-under-svg-we-provide{
+    font-family: 'Syne';
+    padding-top: 1.6rem;
+    /* width: 27.9rem; */
+    padding-bottom: 1.2rem;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    color: var(--color-font-black);
+}
+
+.txt-two-under-svg-we-provide{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 300;
+    color: var(--color-font-under-header-two);
+    font-family: 'Space Grotesk';
+}
+
+.testimonials{
+    margin-bottom: 12rem;
+}
+
+
+.cmt-under-txt-test{
+    gap: 3.2rem;
+}
+
+
+
+.cmt-gp-one{
+    gap: 4.2rem;
+}
+
+.cmt-sgl-one-gp-one{
+    padding: 2.4rem;
+    /* width: 412px; */
+    height: 20.8rem;
+    background-color: var(--bg-color-body);
+    border: 0.1rem solid var(--border-color-cmt);
+    border-radius: 1rem;
+    gap: 1.6rem;
+}
+
+.title-cmt{
+    gap: 0.8rem;
+}
+
+
+
+.txt-avatar-one{
+    font-family: 'Space Grotesk';
+    color: var(--color-font-black);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.txt-address{
+    font-family: 'Space Grotesk';
+    color: var(--color-font-black);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+
+.dc-under-avatar{
+    font-family: 'Space Grotesk';
+    color: var(--color-font-under-header-two);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.cmt-sgl-two-gp-one{
+    /* width: 412px; */
+    height: 18.4rem;
+    padding: 2.4rem;
+    background-color: var(--bg-color-body);
+    border: 0.1rem solid var(--border-color-cmt);
+    border-radius: 1rem;
+    gap: 1.6rem;
+   
+}
+
+.cmt-sgl-three-gp-one{
+    /* width: 412px; */
+    height: 16rem;
+    padding: 2.4rem;
+    background-color: var(--bg-color-body);
+    border: 0.1rem solid var(--border-color-cmt);
+    border-radius: 1rem;
+    gap: 1.6rem;
+   
+}
+
+
+.asked{
+    gap: 3.2rem;
+    margin-bottom: 20rem
+}
+
+.txt-tiltle-aksed{
+    gap: 2.4rem;
+}
+
+.txt-one-aksed{
+    font-family: 'Syne';
+    color: var(--color-font-black);
+    font-size: 4.8rem;
+    width: 407px;
+    font-weight: 600;
+    line-height: 6.4rem;
+}
+
+.txt-two-aksed{
+    font-family: 'Space Grotesk';
+    columns: var(--color-font-under-header-two);
+    width: 34.5rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.cards-asked{
+    gap: 3.2rem;
+}
+
+.gp-one-aksed{
+    gap: 4.2rem;
+}
+
+
+
+.txt-gp-one-sgl-one{
+
+}
+
+
+.gp-sgl-one{
+    border: 0.1rem solid var(--border-color-cmt);
+    border-radius: 1rem;
+    padding-left: 2.4rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    padding-right: 3.6rem;
+    width: 420px;
+}
+
+.txt-gp-one-sgl-one{
+    font-family: 'Space Grotesk';
+    color: var(--color-font-black);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+
+.gp-sgl-two{
+
+}
+
+.gp-sgl-three{
+    
+}
+
+.dc-gp-sgl-card{
+    font-family: 'Space Grotesk';
+    color: var(--color-font-under-header-two);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.ready{
+    margin-bottom: 16rem;
+}
+
+.txt-ready{
+    gap: 3.2rem;
+}
+
+.last-btn{
+    background-color: var(--color-font-under-header-two);
+    border: 0px;
+    border-radius: 1.5rem;
+    padding: 1.6rem 2rem;
+    color: var(--color-font-white);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2rem;
+    font-family: 'Syne';
+}
+
+.compunent-zeus{
+    margin-bottom: 4rem;
+}
+
+.zeus-li{
+    font-family: 'Space Grotesk';
+    color: var(--color-font-black);
+    list-style: none;
+    gap: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.txt-title{
+    font-size: 4.8rem;
+    font-weight: 700;
+    width: 710px;
+    font-family: 'Syne';
+    line-height: 6.4rem;
+    color: var(--color-font-black);
+}
+
+.txt-two{
+    width: 710px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    font-family: 'Space Grotesk';
+}
+
+
+.image-logo{
+    margin-right: 7rem;
+}
+
+.last-txt{
+    color: var(--color-font-black);
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-family: 'Space Grotesk';
+    line-height: 2rem;
+}
+
+
+/* responsive */
+
+@media (min-width: 992px){
+  .col-lg-19 {
+     flex: 0 0 auto;
+     width: 19.666667%;
+   }
+
+   .font-size-lg-16{
+    font-size: 1.6rem;
+   }
+}
+
+@media (min-width: 320px){
+.font-size-sm-36{
+font-size: 3.6rem;
+}
+
+.col-sm-30 {
+flex: 0 0 auto;
+width: 30.666667%;
+  } 
+
+  .col-sm-19 {
+    flex: 0 0 auto;
+    width: 19.666667%;
+  }
+
+   .col-sm-100 {
+    flex: 0 0 auto;
+    width: 100.333333%;
+}
+
+.h-sm-310{
+       height: 31rem;
+}
+
+  .h-sm-50{
+    height: 50%;
+  }
+
+  .h-sm-187{
+    height: 187px;
+  }
+
+  .h-sm-212{
+       height: 212px;
+  }
+
+  .h-sm-237{
+    height: 237px;
+  }
+
+  .h-sm-332{
+        height: 332px;
+  }
+
+  .h-sm-261{
+    height: 261px;
+  }
+
+  .px-sm-5{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .py-sm-5{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .pb-sm-5{
+    padding-bottom: 0.5rem;
+  }
+
+  .px-sm-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .h-sm-164{
+    height: 164px;
+  }
+
+  .py-sm-12{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  
+
+  .px-sm-20{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+
+  .gap-sm-24{
+    gap: 2.4rem;
+  }
+
+  .gap-sm-16{
+    gap: 1.6rem;
+  }
+
+  .gap-sm-24{
+    gap: 2.4rem;
+  }
+
+  .gap-sm-100{
+    gap: 10rem;
+  }
+
+  .gap-sm-32{
+    gap: 3.2rem;
+  }
+
+  .gap-sm-200{
+    gap: 2rem;
+  }
+
+  .font-size-sm-32{
+    font-size: 3.2rem;
+  }
+
+  .font-size-sm-24{
+    font-size: 2.4rem;
+  }
+
+  .font-size-sm-16{
+    font-size: 1.6rem;
+  }
+
+  .font-size-sm-12{
+    font-size: 1.2rem;
+  }
+
+  .font-size-sm-40{
+    font-size: 4rem;
+  }
+
+  .font-size-sm-48{
+    font-size: 4.8rem;
+  }
+
+  .font-size-sm-80{
+    font-size: 8rem;
+  }
+
+  .font-size-sm-70{
+    font-size: 7rem;
+  }
+
+  .text-sm-justify{
+    text-align: justify;
+  }
+
+  .text-sm-unset{
+    text-align: unset;
+  }
+
+  .justify-content-sm-space-between{
+    justify-content: space-between;
+  }
+
+  .justify-content-sm-unset{
+    justify-content: unset;
+  }
+
+
+
+  .col-sm-18 {
+     flex: 0 0 auto;
+     width: 18.666667%;
+  }
+
+  .w-sm-max{
+        width: max-content;
+  }
+
+  .w-sm-fit{
+    width: fit-content;
+  }
+
+  .w-sm-unset{
+    width: unset;
+  }
+}
+
+
+
+
+
+@media (min-width: 834px){
+    .col-md-30 {
+    flex: 0 0 auto;
+    width: 30.666667%;
+      } 
+    
+      .col-md-19 {
+        flex: 0 0 auto;
+        width: 19.666667%;
+      }
+
+       .col-md-100 {
+        flex: 0 0 auto;
+        width: 100.333333%;
+    }
+
+    .h-md-310{
+           height: 31rem;
+    }
+
+      .h-md-50{
+        height: 50%;
+      }
+
+      .h-md-187{
+        height: 187px;
+      }
+
+      .h-md-212{
+           height: 212px;
+      }
+
+      .h-md-237{
+        height: 237px;
+      }
+
+      .h-md-332{
+            height: 332px;
+      }
+
+      .h-md-261{
+        height: 261px;
+      }
+
+      
+
+      .h-md-164{
+        height: 164px;
+      }
+
+      .py-md-12{
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+      }
+
+      
+
+      .px-md-20{
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+
+
+      .gap-md-24{
+        gap: 2.4rem;
+      }
+
+      .gap-md-16{
+        gap: 1.6rem;
+      }
+
+      .gap-xl-24{
+        gap: 2.4rem;
+      }
+
+      .gap-md-100{
+        gap: 10rem;
+      }
+
+      .gap-md-32{
+        gap: 3.2rem;
+      }
+
+      .gap-md-200{
+        gap: 2rem;
+      }
+
+      .font-size-md-32{
+        font-size: 3.2rem;
+      }
+
+      .font-size-md-24{
+        font-size: 2.4rem;
+      }
+
+      .font-size-md-16{
+        font-size: 1.6rem;
+      }
+
+      .font-size-md-12{
+        font-size: 1.2rem;
+      }
+
+      .font-size-md-36{
+        font-size: 3.6rem;
+      }
+
+      .font-size-md-40{
+        font-size: 4rem;
+      }
+
+      .font-size-md-48{
+        font-size: 4.8rem;
+      }
+
+      .font-size-md-80{
+        font-size: 8rem;
+      }
+
+      .font-size-md-70{
+        font-size: 7rem;
+      }
+
+      .text-md-justify{
+        text-align: justify;
+      }
+
+      .text-md-unset{
+        text-align: unset;
+      }
+
+      .justify-content-md-space-between{
+        justify-content: space-between;
+      }
+
+      .justify-content-md-unset{
+        justify-content: unset;
+      }
+
+
+  
+      .col-md-18 {
+         flex: 0 0 auto;
+         width: 18.666667%;
+      }
+
+      .w-md-max{
+            width: max-content;
+      }
+
+      .w-md-fit{
+        width: fit-content;
+      }
+
+      .w-md-unset{
+        width: unset;
+      }
+}
+
+@media (min-width: 1200px){
+  .w-lg-12{
+      flex: 0 0 auto;
+      width: 12.666667%;
+}
+
+.col-xl-19 {
+ flex: 0 0 auto;
+ width: 19.666667%;
+}
+
+.gap-xl-32{
+ gap: 3.2rem;
+}
+
+.gap-xl-40{
+ gap: 4rem;
+}
+
+
+.font-size-xl-32{
+ font-size: 3.2rem;
+}
+
+.font-size-xl-24{
+ font-size: 2.4rem;
+}
+
+.font-size-xl-16{
+ font-size: 1.6rem;
+}
+
+.font-size-xl-40{
+ font-size: 4rem;
+}
+
+.font-size-xl-48{
+ font-size: 4.8rem;
+}
+
+.font-size-xl-80{
+ font-size: 8rem;
+}
+
+.font-size-xl-70{
+ font-size: 7rem;
+}
+
+
+.text-xl-justify{
+ text-align: justify;
+}
+
+.text-xl-unset{
+ text-align: unset;
+}
+
+.h-xl-208{
+ height: 20.8rem;
+}
+
+.h-xl-160{
+ height: 16rem;
+}
+
+.h-xl-164{
+  height: 16.4rem;
+ }
+
+ .h-xl-214{
+  height: 21.4rem;
+ }
+
+.h-xl-184{
+ height: 18.4rem;
+}
+
+.h-xl-200{
+ height: 20rem;
+}
+
+.h-xl-136{
+ height: 136px;
+}
+
+.py-xl-16{
+ padding-top: 1.6rem;
+ padding-bottom: 1.6rem;
+}
+
+.mb-xl-40{
+ margin-bottom: 4rem;
+}
+
+.mr-xl-70{
+ margin-right: 7rem;
+}
+
+
+.justify-content-xl-space-between{
+ justify-content: space-between;
+}
+
+.justify-content-xl-unset{
+ justify-content: unset;
+}
+
+.w-xl-max{
+     width: max-content;
+}
+
+.w-xl-fit{
+ width: fit-content;
+}
+
+.w-xl-unset{
+ width: unset;
+}
+}
